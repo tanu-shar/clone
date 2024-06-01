@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"></div>
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+            </div>
+        </div>
+        <div class="nav-search">
+            <select class="search-select">
+                <option>
+                   All
+                </option>
+            </select>
+            <input placeholder="Search Amazon" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    
+    <div class="nav-signin border">
+        <p><span>Hello, sign in</span></p>
+        <p class="nav-second">Account & Lists</p>
+    </div>
+    <div class="nav-return border">
+        <p><span>Returns</span></p>
+        <p class="nav-second">& Orders</p>
+    </div>
+    <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+    </div>
+    </div>
+    <div class="panel">
+        <div class="panel-all">
+            <!-- <a href="#" style="color: white;"><i class="fa-solid fa-bars"></i></a> -->
+            <div id="idmySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contacts</a>
+            </div>
+            <span style="font-size: 20px; cursor: pointer;" onclick="openNav()">&#9776; All</span>
+            <!-- <a href="https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb class=" style="text-decoration: none; color: aliceblue;">All</a> -->
+        </div>
+        <script>
+            function openNav(){
+                document.getElementById("idmySidenav").style.width="250px";
+            }
+            function closeNav(){
+                document.getElementById("idmySidenav").style.width="0";
+            }
+        </script>
+        <div class="panel-ops">
+            <a  href="https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb" style="text-decoration: none; color: antiquewhite;" class="expanding-link"><p>Today's Deals</p></a>
+            <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice" style="text-decoration: none; color: antiquewhite;" class="expanding-link"><p>Customer Service</p></a>
+            <a href="https://www.amazon.com/registries?ref_=nav_cs_registry&ref_=nav_cs_registry" style="text-decoration: none; color: antiquewhite;"class="expanding-link"><p>Registry</p></a>
+            <a href="gift.html" style="text-decoration: none; color: antiquewhite;"class="expanding-link"><p>Gift Cards</p></a>
+            <p class="expanding-link">Sell</p>
+        </div>
+        <div class="panel-deals">
+            Shop deals in Electronics
+        </div>
+    </div>
+</header>
+<div class="hero-section">
+    <div class="hero-msg">
+        <p>You are on amazon.com. You can also shop on Amazon India for millions of product with fest local delievery. <a href="https://www.amazon.in/?ref=aisgw_intl_stripe_in" style="text-decoration: none;" > Click here to go</a></p>
+    </div>
+</div>
+<div class="shop-section">
+    <div class="box1 box" >
+        <div class="box-content">
+            
+        <h2>Clothes</h2>
+        <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+            <p>See more</p>
+        </div>
+    </div>
+    <div class="box2 box">
+         <div class="box-content">
+            
+        <h2>Healh & Personal Care</h2>
+        <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
+            <p>See more</p>
+        </div></div>
+    <div class="box3 box">
+         <div class="box-content">
+            
+        <h2>Furniture</h2>
+        <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
+            <p>See more</p>
+        </div></div>
+    <div class="box4 box">
+         <div class="box-content">
+            
+        <h2>Mobiles & Electronics</h2>
+        <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
+            <p>See more</p>
+        </div></div>
+        <div class="box5 box">
+        <div class="box-content">
+            
+         <h2>Makeup Products</h2>
+          <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
+            <p>See more</p>
+             </div></div>
+    <div class="box6 box">
+             <div class="box-content">
+                <h2>Pets Products</h2>
+            <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
+                <p>See more</p>
+                        </div></div>
+                    <div class="box7 box">
+                    <div class="box-content">
+                        <h2>Kids Section</h2>
+                    <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
+                        <p>See more</p>
+                    </div></div>
+                    <div class="box8 box">
+                    <div class="box-content">                                
+                        <h2>Women Styles</h2>
+                    <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
+                      <p>See more</p>
+                    </div></div>
+</div>
+<footer>
+    <div class="container">
+        <div class="container-heading">
+            <p>Sign in to see personalized recommendations</p>
+        </div>
+            <a href="signin.html"><button class="button1" style="background-color: rgb(241, 179, 21); width: 15%; border-radius: 5px; padding: 5px; border: 1px solid rgba(201, 161, 62, 0.89);">Sign in </button></a>
+                <!-- <button class="button2">Sign up</button> -->
+                <p style="padding: 10px;">New customer? <a style="color: blue; ">Start here.</a>
+                </p>
+        </div>
+    </div>
+    <div class="foot-panel1">
+    <a href="index.html" style="color: antiquewhite; text-decoration: none;">Back to Top</a>
+    </div>
+    <div class="foot-panel2">
+        <ul>
+            <p>Get to know Us</p>
+            <a href="career.html" style="text-decoration: none;">Careers</a>
+            <a href="https://www.aboutamazon.com/" style="text-decoration: none;">Blogs</a>
+            <a href="https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer"style="text-decoration: none;">About Amazon</a>
+            <a href="https://ir.aboutamazon.com/overview/default.aspx"      style="text-decoration: none;">Investor Relations</a>
+            <a href="https://www.amazon.com/gp/browse.html?node=2102313011&ref_=footer_devices" style="text-decoration: none;">Amazon Devices</a>
+            <a href="https://www.amazon.science/" style="text-decoration: none;">Amazon Science</a>
+        </ul>
+        <ul>
+            <p>Make Money with Us</p>
+            <a href="https://sell.amazon.com/?ld=AZFSSOA&ref_=footer_soa" style="text-decoration: none;">Sell products on Amazon</a>
+            <a href="https://sell.amazon.com/programs/amazon-business?ld=usb2bunifooter&ref_=footer_b2b" style="text-decoration: none;" >Sell on Amazon Business</a>
+            <a >Sell apps on Amazon</a>
+            <a >Become an Affiliate</a>
+            <a>Advertise Your Products</a>
+            <a>Self-Publish with Us</a>
+            <a>Host an Amazon Hub</a>
+            <a>See More Make Money with Us</a>
+        </ul>
+        <ul>
+            <p>Amazon Payment Products</p>
+            <a>Amazon Business Card</a>
+            <a>Shop with Points</a>
+            <a>Reload Your Balance</a>
+            <a>Amazon Currency Converter</a>
+        </ul>
+        <ul>
+            <p>Let Us Help You</p>
+            <a>Amazon and COVID-19</a>
+            <a>Your Account</a>
+            <a>Your Orders</a>
+            <a>Shipping Rates & <br>Policies</a>
+            <a>Returns & Replacements</a>
+            <a>Manage Your Content and Devices</a>
+            <a>Amazon Assistant</a>
+            <a>Help</a>
+        </ul>
+    </div>
+    <div class="foot-panel3">
+        <div class="logo"></div>
+    </div>
+    <div class="foot-panel4">
+        <div class="pages">
+            <a >Conditions of Use</a>
+            <a >Privacy Notice</a>
+            <a >Your Ads Privacy Choices</a>
+        </div>
+        <div class="copyright">
+            1996-2023, Amazon.com, Inc. or its affiliates
+        </div>
+    </div>
+</footer>

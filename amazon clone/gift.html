@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Card</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Online Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="gift-card">
+            <h2>Gift Card</h2>
+            <p>Surprise your loved ones with a gift card!</p>
+            <form action="purchase_gift_card.php" method="post">
+                <label for="amount">Select Amount:</label>
+                <input type="number" id="amount" name="amount" min="5" max="500" step="5" required>
+                <button type="submit">Buy Gift Card</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Online Store</p>
+    </footer>
+</body>
+</html>
